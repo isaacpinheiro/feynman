@@ -4,5 +4,7 @@ import Feynman
 
 main :: IO()
 main = do
-  putStrLn "Feynman"
+  n <- readLn
+  let result = feynman (n :: Int)
+  putStrLn (show result)
 
