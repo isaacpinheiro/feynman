@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import Feynman
 
-main :: IO ()
-main = someFunc
+main :: IO()
+main = do
+  putStrLn "Feynman"
+
